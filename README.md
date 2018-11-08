@@ -1,15 +1,20 @@
 # HS_transcription_regulation
 Heat shock driven transcription regulation correlated with underlying 3D chromatin contacts
+
 Heat shock initiates rapid, extensive, and evolutionarily conserved changes in the transcription of thousands of genes. Transcriptional activation during heat shock involves chromatin decondensation and nucleosome loss accompanied with binding of the transcription factor heat shock factor 1 (HSF1 ) that results in the release of paused RNA polymerase II (Pol II) into productive elongation. Here we have employed Hi-C to determine how heat stress affects long-range chromatin conformation  in human and Drosophila cells. We found that topologically-associated domains (TADs), compartments, and loop interactions all remain unchanged by a short duration of heat shock. Many HSF1-dependent genes rely on distal HSF1 binding to enhancer elements, however enhancer-promoter contacts are already established in the non-heat shock condition and exhibit minimal changes in contact frequency in both human and Drosophila cells. Our results suggest that the chromatin conformation necessary for a robust heat shock response is pre-established in resting cells that could rapidly drive the activation of the responsive genes.
+
 ## Citation
+
 If you use this code or the resulting assemblies, please cite the following paper:
+
 Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Pre-established three-dimensional chromatin contacts underlie heat shock driven transcriptional regulation.* PNAS. <date>; <vol.> <pages>. doi: <link>
+
 ## Prerequisites
 ```
-* Bash >= 4
-* Python >= 2.7
-* scipy, numpy, matplotlib, getopt, <other modules>
-* R >= 3.4.2
+- Bash >= 4
+- Python >= 2.7
+- scipy, numpy, matplotlib, getopt, <other modules>
+- R >= 3.4.2
 ```
 
 ## Installation
