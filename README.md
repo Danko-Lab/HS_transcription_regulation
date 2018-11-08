@@ -10,12 +10,10 @@ If you use this code or the resulting assemblies, please cite the following pape
 Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Pre-established three-dimensional chromatin contacts underlie heat shock driven transcriptional regulation.* PNAS. <date>; <vol.> <pages>. doi: <link>
 
 ## Prerequisites
-```
-- Bash >= 4
-- Python >= 2.7
-- scipy, numpy, matplotlib, getopt, <other modules>
-- R >= 3.4.2
-```
+- `Bash >= 4`
+- `Python >= 2.7`
+- `scipy, numpy, matplotlib, getopt, <other modules>
+- `R >= 3.4.2`
 
 ## Installation
 
