@@ -127,7 +127,7 @@ Standard, 6-column .bed file: Chromosome, Start position of TSS, End position, N
 
 Contact map format:
 
-This file consists of paired contacts in the format produced by the Aiden lab’s Juicer pipeline ( https://github.com/aidenlab/juicer ): 
+This file consists of paired contacts in the format produced by the [Aiden lab’s Juicer pipeline](https://github.com/aidenlab/juicer) at https://github.com/aidenlab/juicer: 
 
 Column 0: strand 1 (0 for forward, anything else for reverse) <br />
 Column 1: chromosome 1 <br />
@@ -136,7 +136,7 @@ Column 3: restriction site fragment 1 (not used by my code) <br />
 Column 4: strand 2 (0 for forward, anything else for reverse) <br />
 Column 5: chromosome 2 <br />
 Column 6: position 2 <br />
-Column 7: restriction site fragment 2 (not used by my code)
+Column 7: restriction site fragment 2 (not used by my code) <br />
 
 Note: The merged_nodups.txt file used in the example is too large to store here (approx. 34 Gb) and so will need to be produced by concatenating the fastq files from our Hi-C assays after heat shock (<links>) and running them through the Aiden lab’s Juicer pipeline (see link above).
 
