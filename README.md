@@ -114,7 +114,11 @@ Input parameters:
 Example:
 
 ```
-python virtual_4C_interactions.py -s data/HSF1dependently_induced_genes_K562_TSS_only_greater_than_10K.bed -r data/K562_HS_combined_merged_nodups.txt -o output/K562_HS_combined_virtual_4C_output_10K -w 2000000 -b 10000 -t
+python virtual_4C_interactions.py \
+-s data/HSF1dependently_induced_genes_K562_TSS_only_greater_than_10K.bed \
+-r data/K562_HS_combined_merged_nodups.txt \
+-o output/K562_HS_combined_virtual_4C_output_10K \
+-w 2000000 -b 10000 -q 30 -t
 ```
 
 Input TSS bed file format:
@@ -123,15 +127,20 @@ Standard, 6-column .bed file: Chromosome, Start position of TSS, End position, N
 
 Contact map format:
 
-This file consists of paired contacts in the format produced by the Aiden lab’s Juicer pipeline: 
+This file consists of paired contacts in the format produced by the Aiden lab’s Juicer pipeline (https://github.com/aidenlab/juicer): 
+
 Column 0: strand 1 (0 for forward, anything else for reverse)
+
 Column 1: chromosome 1
+
 Column 2: position 1
 Column 3: restriction site fragment 1 (not used by my code)
 Column 4: strand 2 (0 for forward, anything else for reverse)
 Column 5: chromosome 2
 Column 6: position 2
 Column 7: restriction site fragment 2 (not used by my code)
+
+Note: The merged_nodups.txt file used in the example is too large to store here (approx. 34 Gb) and so will need to be produced by concatenating the fastq files from our Hi-C assays after heat shock (<links>) and running them through the Aiden lab’s Juicer pipeline (see link above).
 
 Output files:
 
@@ -141,4 +150,5 @@ Output files:
 
 
 The program produces one bedgraph file for each anchor point in the input TSS file. These files contain columns for chromosome, start and end positions for each bin, and a read count for each bin.
+
 
