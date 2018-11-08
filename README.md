@@ -130,9 +130,7 @@ Contact map format:
 This file consists of paired contacts in the format produced by the Aiden lab’s Juicer pipeline (https://github.com/aidenlab/juicer): 
 
 Column 0: strand 1 (0 for forward, anything else for reverse)
-
 Column 1: chromosome 1
-
 Column 2: position 1
 Column 3: restriction site fragment 1 (not used by my code)
 Column 4: strand 2 (0 for forward, anything else for reverse)
