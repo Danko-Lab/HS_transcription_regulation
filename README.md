@@ -127,7 +127,7 @@ Standard, 6-column .bed file: Chromosome, Start position of TSS, End position, N
 
 Contact map format:
 
-This file consists of paired contacts in the format produced by the [Aiden lab’s Juicer pipeline](https://github.com/aidenlab/juicer) at https://github.com/aidenlab/juicer: 
+This file consists of paired contacts in the format produced by the [Aiden lab’s Juicer pipeline](https://github.com/aidenlab/juicer) at https://github.com/aidenlab/juicer : 
 
 Column 0: strand 1 (0 for forward, anything else for reverse) <br />
 Column 1: chromosome 1 <br />
