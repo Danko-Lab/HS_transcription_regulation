@@ -7,7 +7,7 @@ Heat shock initiates rapid, extensive, and evolutionarily conserved changes in t
 
 If you use this code or the resulting assemblies, please cite the following paper:
 
-Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Pre-established three-dimensional chromatin contacts underlie heat shock driven transcriptional regulation.* PNAS. <date>; <vol.> <pages>. doi: <link>
+Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Pre-established three-dimensional chromatin contacts underlie heat shock driven transcriptional regulation.* <publication> <date>; <vol.> <pages>. doi: <link>
 
 ## Prerequisites
 
@@ -143,8 +143,6 @@ Note: The merged_nodups.txt file used in the example is too large to store here 
 Output files:
 
 ![Virtual 4C plots](images/fig_4b.png)
-
-
 
 
 The program produces one bedgraph file for each anchor point in the input TSS file. These files contain columns for chromosome, start and end positions for each bin, and a read count for each bin.
