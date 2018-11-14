@@ -103,7 +103,7 @@ python virtual_4C_interactions.py -s <input TSS file> \
 -w <window size> \
 -b <bin size> \
 -o <output bedgraph file prefix> \
--q <read quality filter>
+-q <read quality filter> \
 -t -h
 ```
 
@@ -114,7 +114,8 @@ Input parameters:
 * Window size: Size of region (in bp) around each anchor point
 * Bin size: Size of each sub-division of the window (in bp) for which contact end points are summed
 * Output bedgraph file: File name prefix for bedgraph file (see output files below)
-* -q: Read quality filter (set to zero to include all reads)* -t: Testing flag
+* -q: Read quality filter (set to zero to include all reads)
+* -t: Testing flag
 * -h: Show usage help
 
 Example:
