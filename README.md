@@ -7,7 +7,7 @@ Heat shock initiates rapid, extensive, and evolutionarily conserved changes in t
 
 If you use this code or the resulting assemblies, please cite the following paper:
 
-Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Pre-established three-dimensional chromatin contacts underlie heat shock driven transcriptional regulation.* <publication> <date>; <vol.> <pages>. doi: <link>
+Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Pre-established three-dimensional chromatin contacts underlie heat shock driven transcriptional regulation.* <publication.> <date.>; <vol.> <pages.>. doi: <link.>
 
 ## Prerequisites
 
@@ -98,7 +98,13 @@ This code takes a file of anchor points and a paired contacts file and produces 
 Program usage:
 
 ```
-python virtual_4C_interactions.py -s <input TSS file> -r <input paired contacts file> -w <window size> -b <bin size> -o <output bedgraph file prefix> -t -h
+python virtual_4C_interactions.py -s <input TSS file> \
+-r <input paired contacts file> \
+-w <window size> \
+-b <bin size> \
+-o <output bedgraph file prefix> \
+-q <read quality filter>
+-t -h
 ```
 
 Input parameters:
@@ -108,7 +114,7 @@ Input parameters:
 * Window size: Size of region (in bp) around each anchor point
 * Bin size: Size of each sub-division of the window (in bp) for which contact end points are summed
 * Output bedgraph file: File name prefix for bedgraph file (see output files below)
-* -t: Testing flag
+* -q: Read quality filter (set to zero to include all reads)* -t: Testing flag
 * -h: Show usage help
 
 Example:
