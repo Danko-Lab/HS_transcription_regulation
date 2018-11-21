@@ -40,15 +40,9 @@ np.random.seed(0)
 # Initialize globals
 interactionsDict = defaultdict(dict)
 
-geneClassList = ['HSF-dep', 'HSF-indep', 'Down reg', 'Unreg']
-
-columnList = ['CF to nearest transcribed', 'CF to nearest non-transcribed', 'CF to before bin transcribed', 'CF to before bin non-transcribed', 'CF to after bin transcribed', 'CF to after bin non-transcribed']
-
 # Process data file
 def ProcessInteractionsFile(inputDataFile, featureNames, targetNames, testMode):
     global interactionsDict
-    global geneClassList
-    global columnList
 
     rowNumber = -1
     nRows = 0
@@ -205,8 +199,6 @@ def plotData(data_to_plot, figureNum, colorList, alphaList, xAxisLabels, yAxis, 
 
 def main(argv):
     global interactionsDict
-    global geneClassList
-    global columnList
 
     programName = 'gene_class_contact_frequency_random_forest_wilcoxon'
     inputDataFile = 'K562_gene_class_contact_frequency_3K_w_PROseq_counts_and_rpkm_minus_HS_table.txt'
