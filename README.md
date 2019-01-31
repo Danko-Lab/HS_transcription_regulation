@@ -7,7 +7,8 @@ Heat shock initiates rapid, extensive, and evolutionarily conserved changes in t
 
 If you use this code or the resulting assemblies, please cite the following paper:
 
-Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Pre-established three-dimensional chromatin contacts underlie heat shock driven transcriptional regulation.* <publication.> <date.>; <vol.> <pages.>. doi: <link.>
+Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Chromatin conformation remains stable upon extensive transcriptional changes driven by heat shock.* bioRxiv: [https://www.biorxiv.org/content/10.1101/527838v1](https://www.biorxiv.org/content/10.1101/527838v1)
+<publication.> <date.>; <vol.> <pages.>. doi: <link.>
 
 ## Prerequisites
 
