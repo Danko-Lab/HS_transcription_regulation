@@ -7,8 +7,10 @@ Heat shock initiates rapid, extensive, and evolutionarily conserved changes in t
 
 If you use this code or the resulting assemblies, please cite the following paper:
 
-Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko, John T. Lis (2018). *Chromatin conformation remains stable upon extensive transcriptional changes driven by heat shock.* bioRxiv: [https://www.biorxiv.org/content/10.1101/527838v1](https://www.biorxiv.org/content/10.1101/527838v1)
-<publication.> <date.>; <vol.> <pages.>. doi: <link.>
+*Chromatin conformation remains stable upon extensive transcriptional changes driven by heat shock*
+Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, James J. Lewis, Abdullah Ozer, Charles G. Danko, John T. Lis
+Proceedings of the National Academy of Sciences Sep 2019, 201901244; DOI: [10.1073/pnas.1901244116](https://www.pnas.org/content/early/2019/09/09/1901244116)
+
 
 ## Prerequisites
 
@@ -20,6 +22,10 @@ Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, Abdullah Ozer, Charles G. Danko
 ## Installation
 
 There is no need for installation
+
+## Data
+
+Much of the data used to run the programs below can be found in the data directory. Raw sequence data and processed files can be found in the GEO, under accession number [GSE130778](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130778)
 
 ## Program usage
 
