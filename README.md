@@ -7,8 +7,8 @@ Heat shock initiates rapid, extensive, and evolutionarily conserved changes in t
 
 If you use this code or the resulting assemblies, please cite the following paper:
 
-*Chromatin conformation remains stable upon extensive transcriptional changes driven by heat shock*
-Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, James J. Lewis, Abdullah Ozer, Charles G. Danko, John T. Lis
+*Chromatin conformation remains stable upon extensive transcriptional changes driven by heat shock* <br />
+Judhajeet Ray, Paul R. Munn, Anniina Vihervaara, James J. Lewis, Abdullah Ozer, Charles G. Danko, John T. Lis <br />
 Proceedings of the National Academy of Sciences Sep 2019, 201901244; DOI: [10.1073/pnas.1901244116](https://www.pnas.org/content/early/2019/09/09/1901244116)
 
 
